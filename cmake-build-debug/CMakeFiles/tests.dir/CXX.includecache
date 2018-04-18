@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nadia/Projects/mastermind/main_.cpp
+source/library.h
+/Users/nadia/Projects/mastermind/source/library.h
+iostream
+-
+
+/Users/nadia/Projects/mastermind/source/library.h
+
