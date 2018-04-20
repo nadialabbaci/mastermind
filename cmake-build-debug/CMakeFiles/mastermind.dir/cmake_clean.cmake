@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mastermind.dir/source/library.cpp.o"
+  "CMakeFiles/mastermind.dir/source/mastermind.cpp.o"
   "libmastermind.pdb"
   "libmastermind.a"
 )

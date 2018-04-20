@@ -3,4 +3,7 @@
 
 CMakeFiles/tests.dir/main_.cpp.o
  /Users/nadia/Projects/mastermind/main_.cpp
- /Users/nadia/Projects/mastermind/source/library.h
+ /Users/nadia/Projects/mastermind/source/mastermind.h
+CMakeFiles/tests.dir/source/mastermind.cpp.o
+ /Users/nadia/Projects/mastermind/source/mastermind.cpp
+ /Users/nadia/Projects/mastermind/source/mastermind.h

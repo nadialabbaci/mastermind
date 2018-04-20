@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nadia/Projects/mastermind/source/library.cpp" "/Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles/mastermind.dir/source/library.cpp.o"
+  "/Users/nadia/Projects/mastermind/source/mastermind.cpp" "/Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles/mastermind.dir/source/mastermind.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/nadia/Projects/mastermind/source/library.cpp
-library.h
-/Users/nadia/Projects/mastermind/source/library.h
+/Users/nadia/Projects/mastermind/source/mastermind.cpp
+mastermind.h
+/Users/nadia/Projects/mastermind/source/mastermind.h
 iostream
 -
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
 
-/Users/nadia/Projects/mastermind/source/library.h
+/Users/nadia/Projects/mastermind/source/mastermind.h
 

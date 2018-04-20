@@ -163,32 +163,35 @@ main_.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/main_.cpp.s
 .PHONY : main_.cpp.s
 
-source/library.o: source/library.cpp.o
+source/mastermind.o: source/mastermind.cpp.o
 
-.PHONY : source/library.o
+.PHONY : source/mastermind.o
 
 # target to build an object file
-source/library.cpp.o:
-	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/library.cpp.o
-.PHONY : source/library.cpp.o
+source/mastermind.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/source/mastermind.cpp.o
+	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/mastermind.cpp.o
+.PHONY : source/mastermind.cpp.o
 
-source/library.i: source/library.cpp.i
+source/mastermind.i: source/mastermind.cpp.i
 
-.PHONY : source/library.i
+.PHONY : source/mastermind.i
 
 # target to preprocess a source file
-source/library.cpp.i:
-	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/library.cpp.i
-.PHONY : source/library.cpp.i
+source/mastermind.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/source/mastermind.cpp.i
+	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/mastermind.cpp.i
+.PHONY : source/mastermind.cpp.i
 
-source/library.s: source/library.cpp.s
+source/mastermind.s: source/mastermind.cpp.s
 
-.PHONY : source/library.s
+.PHONY : source/mastermind.s
 
 # target to generate assembly for a file
-source/library.cpp.s:
-	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/library.cpp.s
-.PHONY : source/library.cpp.s
+source/mastermind.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/source/mastermind.cpp.s
+	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/mastermind.cpp.s
+.PHONY : source/mastermind.cpp.s
 
 # Help Target
 help:
@@ -203,9 +206,9 @@ help:
 	@echo "... main_.o"
 	@echo "... main_.i"
 	@echo "... main_.s"
-	@echo "... source/library.o"
-	@echo "... source/library.i"
-	@echo "... source/library.s"
+	@echo "... source/mastermind.o"
+	@echo "... source/mastermind.i"
+	@echo "... source/mastermind.s"
 .PHONY : help
 
 

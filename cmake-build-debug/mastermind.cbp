@@ -125,10 +125,11 @@
 		<Unit filename="/Users/nadia/Projects/mastermind/main_.cpp">
 			<Option target="tests"/>
 		</Unit>
-		<Unit filename="/Users/nadia/Projects/mastermind/source/library.cpp">
+		<Unit filename="/Users/nadia/Projects/mastermind/source/mastermind.cpp">
+			<Option target="tests"/>
 			<Option target="mastermind"/>
 		</Unit>
-		<Unit filename="/Users/nadia/Projects/mastermind/source/library.h">
+		<Unit filename="/Users/nadia/Projects/mastermind/source/mastermind.h">
 			<Option target="mastermind"/>
 		</Unit>
 		<Unit filename="/Users/nadia/Projects/mastermind/CMakeLists.txt">

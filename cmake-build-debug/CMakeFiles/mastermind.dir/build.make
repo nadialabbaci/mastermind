@@ -57,38 +57,38 @@ include CMakeFiles/mastermind.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mastermind.dir/flags.make
 
-CMakeFiles/mastermind.dir/source/library.cpp.o: CMakeFiles/mastermind.dir/flags.make
-CMakeFiles/mastermind.dir/source/library.cpp.o: ../source/library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mastermind.dir/source/library.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mastermind.dir/source/library.cpp.o -c /Users/nadia/Projects/mastermind/source/library.cpp
+CMakeFiles/mastermind.dir/source/mastermind.cpp.o: CMakeFiles/mastermind.dir/flags.make
+CMakeFiles/mastermind.dir/source/mastermind.cpp.o: ../source/mastermind.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mastermind.dir/source/mastermind.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mastermind.dir/source/mastermind.cpp.o -c /Users/nadia/Projects/mastermind/source/mastermind.cpp
 
-CMakeFiles/mastermind.dir/source/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mastermind.dir/source/library.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nadia/Projects/mastermind/source/library.cpp > CMakeFiles/mastermind.dir/source/library.cpp.i
+CMakeFiles/mastermind.dir/source/mastermind.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mastermind.dir/source/mastermind.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nadia/Projects/mastermind/source/mastermind.cpp > CMakeFiles/mastermind.dir/source/mastermind.cpp.i
 
-CMakeFiles/mastermind.dir/source/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mastermind.dir/source/library.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nadia/Projects/mastermind/source/library.cpp -o CMakeFiles/mastermind.dir/source/library.cpp.s
+CMakeFiles/mastermind.dir/source/mastermind.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mastermind.dir/source/mastermind.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nadia/Projects/mastermind/source/mastermind.cpp -o CMakeFiles/mastermind.dir/source/mastermind.cpp.s
 
-CMakeFiles/mastermind.dir/source/library.cpp.o.requires:
+CMakeFiles/mastermind.dir/source/mastermind.cpp.o.requires:
 
-.PHONY : CMakeFiles/mastermind.dir/source/library.cpp.o.requires
+.PHONY : CMakeFiles/mastermind.dir/source/mastermind.cpp.o.requires
 
-CMakeFiles/mastermind.dir/source/library.cpp.o.provides: CMakeFiles/mastermind.dir/source/library.cpp.o.requires
-	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/library.cpp.o.provides.build
-.PHONY : CMakeFiles/mastermind.dir/source/library.cpp.o.provides
+CMakeFiles/mastermind.dir/source/mastermind.cpp.o.provides: CMakeFiles/mastermind.dir/source/mastermind.cpp.o.requires
+	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/source/mastermind.cpp.o.provides.build
+.PHONY : CMakeFiles/mastermind.dir/source/mastermind.cpp.o.provides
 
-CMakeFiles/mastermind.dir/source/library.cpp.o.provides.build: CMakeFiles/mastermind.dir/source/library.cpp.o
+CMakeFiles/mastermind.dir/source/mastermind.cpp.o.provides.build: CMakeFiles/mastermind.dir/source/mastermind.cpp.o
 
 
 # Object files for target mastermind
 mastermind_OBJECTS = \
-"CMakeFiles/mastermind.dir/source/library.cpp.o"
+"CMakeFiles/mastermind.dir/source/mastermind.cpp.o"
 
 # External object files for target mastermind
 mastermind_EXTERNAL_OBJECTS =
 
-libmastermind.a: CMakeFiles/mastermind.dir/source/library.cpp.o
+libmastermind.a: CMakeFiles/mastermind.dir/source/mastermind.cpp.o
 libmastermind.a: CMakeFiles/mastermind.dir/build.make
 libmastermind.a: CMakeFiles/mastermind.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmastermind.a"
@@ -100,7 +100,7 @@ CMakeFiles/mastermind.dir/build: libmastermind.a
 
 .PHONY : CMakeFiles/mastermind.dir/build
 
-CMakeFiles/mastermind.dir/requires: CMakeFiles/mastermind.dir/source/library.cpp.o.requires
+CMakeFiles/mastermind.dir/requires: CMakeFiles/mastermind.dir/source/mastermind.cpp.o.requires
 
 .PHONY : CMakeFiles/mastermind.dir/requires
 

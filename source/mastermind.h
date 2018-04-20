@@ -29,9 +29,9 @@ public :
 	/** Initialise le code secret via le generateur */
 	MasterMind ( void );
 	/** Initialise le code secret via celui en parameter */
-	MasterMind ( const eColors * secretCode );
+	MasterMind ( const eColors *secretCode );
 	/** Met a zero le code secret */
-	~ MasterMind ( void );
+	~MasterMind ( void );
 	/**
 	* Donne le resultat d'analyse du code du joueur et du secret .
 	*
@@ -41,7 +41,7 @@ public :
 	* @return 0 - combinaisons identiques .
 	* -1 - combinaisons differentes .
 	*/
-	int getResult ( sResult * result , const eColors code [ SECRET_SIZE ] ) ;
+	int getResult ( sResult *result , const eColors code [ SECRET_SIZE ] ) ;
 
 private :
 	/**
@@ -54,5 +54,6 @@ private :
 private :
 	eColors secret [ SECRET_SIZE ];
 };
+
 
 # endif

@@ -3,5 +3,6 @@ project(mastermind)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(mastermind source/library.cpp source/library.h)
-add_executable(tests main_.cpp)
+add_library(mastermind source/mastermind.cpp source/mastermind.h)
+
+add_executable(tests main_.cpp source/mastermind.cpp)

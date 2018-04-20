@@ -7,10 +7,28 @@
 #IncludeRegexTransform: 
 
 /Users/nadia/Projects/mastermind/main_.cpp
-source/library.h
-/Users/nadia/Projects/mastermind/source/library.h
+source/mastermind.h
+/Users/nadia/Projects/mastermind/source/mastermind.h
 iostream
 -
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
 
-/Users/nadia/Projects/mastermind/source/library.h
+/Users/nadia/Projects/mastermind/source/mastermind.cpp
+mastermind.h
+/Users/nadia/Projects/mastermind/source/mastermind.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
+/Users/nadia/Projects/mastermind/source/mastermind.h
 
