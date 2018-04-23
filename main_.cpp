@@ -18,11 +18,22 @@ int main ( void ){
 
     MasterMind *codeSecret = NULL , *partie = NULL ;
     eColors essai[4] = {BLANC,BLANC,BLANC,BLANC};
-
+    sResult essaiResult;
     codeSecret = new MasterMind();
-    partie = new MasterMind(co);
+    unsigned short trouve;
 
-    partie->getResult(0, co);
+    //    partie = new MasterMind(essai);
+
+    while(trouve != 0){
+        for (int i=0; i<SECRET_SIZE; i++){
+            int num;
+            cout << "Please enter your code: ";
+            cin >> num;
+            essai[i] = (eColors)num;
+        }
+
+        trouve = codeSecret->getResult(&essaiResult, essai);
+    }
 
     return 0;
 }
