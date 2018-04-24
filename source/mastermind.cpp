@@ -39,7 +39,9 @@ int MasterMind::getResult(sResult *result, const eColors *code) {
             result->pOk += 1;
         }else{
             for (int j=0; j<SECRET_SIZE; j++ ) {
-                if(code[i] == secret[j] && code[i] != secret[i]  && (secret[j] != secret[i])){
+                if(code[i] == secret[j] &&          // couleur trouvée a un autre index
+                   // code[i] != secret[i] &&
+                   (secret[j] != secret[i])){       // Ne pas repasser dans la boucle en cours
 
                     result->pKo += 1;
                     break;
@@ -48,18 +50,14 @@ int MasterMind::getResult(sResult *result, const eColors *code) {
         }
 
         std::cout << "-----" << std::endl;
-
-        std::cout << code[i] << std::endl;
-        std::cout << "--" << std::endl;
-
-        std::cout << secret[i] << std::endl;
+        std::cout << std::to_string(code[i]) + " | " + std::to_string(secret[i]) << std::endl;
         std::cout << "-----" << std::endl;
 
     }
 
     std::cout << "==" << std::endl;
-    std::cout << result->pKo << std::endl;
-    std::cout << result->pOk << std::endl;
+    std::cout << std::to_string(result->pKo) << " couleurs trouvées mais a la mauvaise position." << std::endl;
+    std::cout << std::to_string(result->pOk) << " couleurs trouvées et la bonne position." << std::endl;
 
     if(result->pOk == 4){
         return 0;
