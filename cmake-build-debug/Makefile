@@ -136,6 +136,32 @@ mastermind/fast:
 	$(MAKE) -f CMakeFiles/mastermind.dir/build.make CMakeFiles/mastermind.dir/build
 .PHONY : mastermind/fast
 
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f lib/googletest/CMakeFiles/gtest_main.dir/build.make lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f lib/googletest/CMakeFiles/gtest.dir/build.make lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
 main_.o: main_.cpp.o
 
 .PHONY : main_.o
@@ -203,6 +229,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... tests"
 	@echo "... mastermind"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... main_.o"
 	@echo "... main_.i"
 	@echo "... main_.s"

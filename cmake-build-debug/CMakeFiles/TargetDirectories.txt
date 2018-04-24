@@ -2,3 +2,7 @@
 /Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles/tests.dir
 /Users/nadia/Projects/mastermind/cmake-build-debug/CMakeFiles/mastermind.dir
+/Users/nadia/Projects/mastermind/cmake-build-debug/lib/googletest/CMakeFiles/rebuild_cache.dir
+/Users/nadia/Projects/mastermind/cmake-build-debug/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/nadia/Projects/mastermind/cmake-build-debug/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/nadia/Projects/mastermind/cmake-build-debug/lib/googletest/CMakeFiles/gtest.dir
