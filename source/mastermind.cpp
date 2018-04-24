@@ -40,7 +40,7 @@ int MasterMind::getResult(sResult *result, const eColors *code) {
         }else{
             for (int j=0; j<SECRET_SIZE; j++ ) {
                 if(code[i] == secret[j] &&          // couleur trouvée a un autre index
-                   // code[i] != secret[i] &&
+                    code[i] != secret[i] &&         // ne pas prendre en compte meme couleur et meme pos
                    (secret[j] != secret[i])){       // Ne pas repasser dans la boucle en cours
 
                     result->pKo += 1;
